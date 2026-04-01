@@ -8,28 +8,27 @@ function App() {
   return (
     <div className="App">
       <h1>Submit Form</h1>
-      {/* <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1> */}
+
       <div className="formsubmit">
-        {/* <div className="card"> */}
-        {/* <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <br /> */}
         <label htmlFor="fname"> First Name*</label>
         <br />
-        <input type="text" id="fname" placeholder="First Name" name="fname" required/>
+        <input
+          type="text"
+          id="fname"
+          placeholder="First Name"
+          name="fname"
+          required
+        />
         <br />
         <label htmlFor="lname">Last Name*</label>
         <br />
-        <input type="text" id="lname" placeholder="Last Name" name="lname" required/>
+        <input
+          type="text"
+          id="lname"
+          placeholder="Last Name"
+          name="lname"
+          required
+        />
         <br />
         <label htmlFor="email">Email Address*</label>
         <br />
@@ -84,13 +83,7 @@ function App() {
           {" "}
           Submit{" "}
         </button>
-        {/* <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p> */}
       </div>
-      {/* <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p> */}
     </div>
   );
 }
